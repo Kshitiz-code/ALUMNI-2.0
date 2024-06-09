@@ -7,7 +7,11 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-
+// import com.scm.entities.User;
+// import com.scm.forms.UserForm;
+// import com.scm.helpers.Message;
+// import com.scm.helpers.MessageType;
+// import com.scm.services.UserService;
 
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
@@ -41,5 +45,18 @@ public class PageController {
     public String servicesPage() {
         System.out.println("services page loading");
         return "services";
+    }
+
+
+    @RequestMapping("/login")
+    public String loginPage() {
+        System.out.println("login page loading");
+        return "login";
+    }
+
+    @GetMapping("/register")
+    public String register() {
+        System.out.println("register page loading");
+        return "register";
     }
 }
