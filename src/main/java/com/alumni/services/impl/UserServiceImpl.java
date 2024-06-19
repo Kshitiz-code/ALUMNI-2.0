@@ -7,13 +7,14 @@ import java.util.UUID;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-// import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.alumni.entities.User;
 // import com.alumni.helpers.AppConstants;
 import com.alumni.helpers.ResourceNotFoundException;
-import com.alumni.repositories.*;
+
+import com.alumni.repositories.UserRepo;
 import com.alumni.services.UserService;
 
 @Service
