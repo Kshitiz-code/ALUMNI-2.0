@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.alumni.forms.UserForm;
 
 import com.alumni.entities.User;
- import com.alumni.forms.UserForm;
-// import com.scm.helpers.Message;
-// import com.scm.helpers.MessageType;
+import com.alumni.helpers.Message;
+import com.alumni.helpers.MessageType;
 import com.alumni.services.UserService;
 
 import jakarta.servlet.http.HttpSession;
