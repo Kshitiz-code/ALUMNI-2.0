@@ -11,12 +11,12 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.alumni.entities.User;
-// import com.alumni.helpers.AppConstants;
+import com.alumni.helpers.AppConstants;
 import com.alumni.helpers.ResourceNotFoundException;
 
 import com.alumni.repositories.UserRepo;
 import com.alumni.services.UserService;
-
+ 
 @Service
 public class UserServiceImpl implements UserService {
 
