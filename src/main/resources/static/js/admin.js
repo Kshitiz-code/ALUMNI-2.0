@@ -1,7 +1,7 @@
 console.log("admin user");
 
 document
-  .querySelector("#image_file_input")
+  .querySelector("#image_file_input")//whenever use query selector pass #//
   .addEventListener("change", function (event) {
     let file = event.target.files[0];
     let reader = new FileReader();
